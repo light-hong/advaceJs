@@ -1,0 +1,11 @@
+{
+  "name": "commonjs_node",
+  "version": "1.0.0",
+  "description": "CommonJS",
+  "main": "app.js",
+  "author": "hl",
+  "license": "ISC",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  }
+}
