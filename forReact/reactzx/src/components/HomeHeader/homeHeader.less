@@ -1,0 +1,20 @@
+@import "_a/styles/global.less";
+.header-wrapper {
+  background-color: @base-color;
+  .am-navbar {
+    background-color: @base-color;
+    .am-navbar-left,.am-navbar-right,.am-search-input {
+      flex: 0 1 auto; // 让flex回归默认值
+    }
+    .am-navbar-title {
+      margin-left: 10px;
+      .am-search {
+        flex: 1;
+        background-color: @base-color;
+      }
+    }
+    .am-search-cancel {
+      color: #fff;
+    }
+  }
+}
